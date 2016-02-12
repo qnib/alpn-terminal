@@ -1,4 +1,4 @@
-FROM qnib/alpn-syslog
+FROM qnib/alpn-syslog:openrc
 
 RUN apk update && apk upgrade && \
     apk add vim && \
